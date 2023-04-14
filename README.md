@@ -1,6 +1,6 @@
 ## Description
 
-    Simple Live chat app. Build with Ruby on Rails, React and Websocket.
+Simple Live chat app. Build with Ruby on Rails, React and Websocket.
 
 ## Installation Ruby on Rails
 
