@@ -1,24 +1,46 @@
-# README
+## Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+    Simple Live chat app. Build with Ruby on Rails, React and Websocket.
 
-Things you may want to cover:
+## Installation Ruby on Rails
 
-* Ruby version
+- Install all dependencies
 
-* System dependencies
+  ```bash
+  $ bundle install
+  ```
 
-* Configuration
+- Create db and migrate schema
+  ```bash
+  $rake db:create
+  $rake db:migrate
+  ```
+- Run Application
 
-* Database creation
+  ```bash
+  $ rails s
+  ```
 
-* Database initialization
+- Testing
 
-* How to run the test suite
+  ```bash
+  $ rails test
+  ```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Installation React
 
-* Deployment instructions
+- Open client
 
-* ...
+  ```bash
+  $ cd client
+  ```
+
+- Install all dependencies
+  ```bash
+  $ npm install
+  ```
+- Run Application
+
+  ```bash
+  $ npm run dev
+  ```
